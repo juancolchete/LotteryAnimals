@@ -6,7 +6,7 @@ import WalletLink from 'walletlink'
 import Web3Modal from 'web3modal'
 import { ellipseAddress, getChainData } from '../lib/utilities'
 let Web3 = require('web3');
-const web3 = new Web3('https://bsc-dataseed1.defibit.io/');
+const web3 = new Web3('https://data-seed-prebsc-1-s1.binance.org:8545/');
 
 const INFURA_ID = process.env.INFURA_ID
 
