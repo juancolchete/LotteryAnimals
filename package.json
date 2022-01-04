@@ -1,0 +1,25 @@
+{
+  "name": "loterryanimals",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@walletconnect/web3-provider": "^1.7.0",
+    "ethers": "^5.5.2",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "walletlink": "^2.4.0",
+    "web3": "^1.6.1",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7"
+  }
+}
