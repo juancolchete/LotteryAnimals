@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from "react";
-let Web3 = require("Web3");
+let Web3 = require("web3");
 import contract from '../contracts.json';
 var bigDecimal = require('js-big-decimal');
 
