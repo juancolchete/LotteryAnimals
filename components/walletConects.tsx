@@ -1,10 +1,9 @@
 import WalletConnectProvider from '@walletconnect/web3-provider'
 import { providers } from 'ethers'
-import Head from 'next/head'
-import { useState, useCallback, useEffect, useReducer } from 'react'
+import { useCallback, useEffect, useReducer } from 'react'
 import WalletLink from 'walletlink'
 import Web3Modal from 'web3modal'
-import { ellipseAddress, getChainData } from '../lib/utilities'
+import { getChainData } from '../lib/utilities'
 let Web3 = require('web3');
 const web3 = new Web3('https://data-seed-prebsc-1-s1.binance.org:8545/');
 
